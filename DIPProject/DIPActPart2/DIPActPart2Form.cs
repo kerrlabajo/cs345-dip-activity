@@ -12,7 +12,7 @@ namespace DIPActPart2
 {
     public partial class DIPActPart2Form : Form
     {
-        private Bitmap imageA, imageB, colorGreen;
+        private Bitmap imageA, imageB, result;
         public DIPActPart2Form()
         {
             InitializeComponent();
@@ -30,7 +30,29 @@ namespace DIPActPart2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Color green = Color.FromArgb(0, 255, 0);
+            int greygreen = (green.R + green.G + green.B) / 3;
+            int threshold = 5;
+            result = new Bitmap(imageA.Width, imageA.Width);
+            for(int x = 0; x < imageB.Width; x++)
+            {
+                for(int y = 0; y < imageB.Height; y++)
+                {
+                    Color pixel = imageA.GetPixel(x, y);
+                    Color backpixel = imageB.GetPixel(x,y);
+                    int grey = (pixel.R + pixel.G + pixel.B) / 3;
+                    int subractvalue = Math.Abs(grey - greygreen);
+                    if(subractvalue > threshold)
+                    {
+                        result.SetPixel(x, y, pixel);
+                    }
+                    else
+                    {
+                        result.SetPixel(x, y, backpixel);
+                    }
+                }
+            }
+            pictureBox3.Image = result;
         }
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
