@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DIPForm.cs">
+    <Compile Include="DIPActPart1Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIPForm.Designer.cs">
-      <DependentUpon>DIPForm.cs</DependentUpon>
+    <Compile Include="DIPActPart1Form.Designer.cs">
+      <DependentUpon>DIPActPart1Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DIPForm.resx">
-      <DependentUpon>DIPForm.cs</DependentUpon>
+    <EmbeddedResource Include="DIPActPart1Form.resx">
+      <DependentUpon>DIPActPart1Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

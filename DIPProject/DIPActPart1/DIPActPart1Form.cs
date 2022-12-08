@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace DIPApp
 {
-    public partial class DIPForm : Form
+    public partial class DIPActPart1Form : Form
     {
         private Bitmap loaded, processed;
-        public DIPForm()
+        public DIPActPart1Form()
         {
             InitializeComponent();
         }

@@ -16,7 +16,7 @@ namespace DIPApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DIPForm());
+            Application.Run(new DIPActPart1Form());
         }
     }
 }
