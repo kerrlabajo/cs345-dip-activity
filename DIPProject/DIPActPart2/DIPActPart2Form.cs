@@ -28,6 +28,11 @@ namespace DIPActPart2
             openFileDialog2.ShowDialog();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
             imageA = new Bitmap(openFileDialog1.FileName);
