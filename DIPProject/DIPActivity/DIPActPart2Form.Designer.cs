@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.returnToPart1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -40,7 +41,6 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.button3 = new System.Windows.Forms.Button();
-            this.returnToPart1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -71,6 +71,14 @@
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // returnToPart1ToolStripMenuItem
+            // 
+            this.returnToPart1ToolStripMenuItem.Name = "returnToPart1ToolStripMenuItem";
+            this.returnToPart1ToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
+            this.returnToPart1ToolStripMenuItem.Text = "Return to Part1";
+            this.returnToPart1ToolStripMenuItem.Click += new System.EventHandler(this.returnToPart1ToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -124,6 +132,10 @@
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
+            // 
             // openFileDialog2
             // 
             this.openFileDialog2.FileName = "openFileDialog2";
@@ -138,13 +150,6 @@
             this.button3.Text = "subtract image";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // returnToPart1ToolStripMenuItem
-            // 
-            this.returnToPart1ToolStripMenuItem.Name = "returnToPart1ToolStripMenuItem";
-            this.returnToPart1ToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
-            this.returnToPart1ToolStripMenuItem.Text = "Return to Part1";
-            this.returnToPart1ToolStripMenuItem.Click += new System.EventHandler(this.returnToPart1ToolStripMenuItem_Click);
             // 
             // DIPActPart2Form
             // 

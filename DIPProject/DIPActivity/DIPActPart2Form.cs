@@ -63,6 +63,16 @@ namespace DIPActivity
             _form.Show();
         }
 
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.ShowDialog();
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+            pictureBox3.Image.Save(saveFileDialog1.FileName);
+        }
+
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
             imageA = new Bitmap(openFileDialog1.FileName);
