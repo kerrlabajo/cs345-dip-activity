@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DIPActPart2
 {
-    public partial class Form1 : Form
+    public partial class DIPActPart2Form : Form
     {
-        public Form1()
+        public DIPActPart2Form()
         {
             InitializeComponent();
         }
