@@ -1,4 +1,4 @@
-﻿namespace DIPActPart2
+﻿namespace DIPActivity
 {
     partial class DIPActPart2Form
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DIPActPart2
+namespace DIPActivity
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace DIPActPart2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DIPActPart2Form());
+            Application.Run(new DIPActPart1Form());
         }
     }
 }

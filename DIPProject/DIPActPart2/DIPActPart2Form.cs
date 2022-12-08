@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DIPActPart2
+namespace DIPActivity
 {
     public partial class DIPActPart2Form : Form
     {

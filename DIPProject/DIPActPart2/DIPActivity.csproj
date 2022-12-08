@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6AFC9C74-6054-46FF-8714-7CCFD6600371}</ProjectGuid>
+    <ProjectGuid>{438407D2-F624-4398-89E9-C8C03187DC6F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DIPApp</RootNamespace>
-    <AssemblyName>DIPApp</AssemblyName>
+    <RootNamespace>DIPActivity</RootNamespace>
+    <AssemblyName>DIPActivity</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,13 +49,22 @@
     <Compile Include="DIPActPart1Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIPActPart1Form.Designer.cs">
+    <Compile Include="DIPActPart1Form.designer.cs">
       <DependentUpon>DIPActPart1Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DIPActPart2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIPActPart2Form.Designer.cs">
+      <DependentUpon>DIPActPart2Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DIPActPart1Form.resx">
       <DependentUpon>DIPActPart1Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIPActPart2Form.resx">
+      <DependentUpon>DIPActPart2Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

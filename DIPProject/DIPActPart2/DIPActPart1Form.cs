@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DIPApp
+namespace DIPActivity
 {
     public partial class DIPActPart1Form : Form
     {
@@ -164,6 +164,12 @@ namespace DIPApp
 
             }
             pictureBox2.Image = processed;
+        }
+
+        private void subtractToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DIPActPart2Form().Show();
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
