@@ -37,7 +37,7 @@ namespace DIPActPart2
         private void openFileDialog2_FileOk(object sender, CancelEventArgs e)
         {
             imageB = new Bitmap(openFileDialog2.FileName);
-            pictureBox1.Image = imageB;
+            pictureBox2.Image = imageB;
         }
     }
 }
