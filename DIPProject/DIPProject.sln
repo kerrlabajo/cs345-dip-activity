@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIPActPart1", "DIPActPart1\DIPActPart1.csproj", "{6AFC9C74-6054-46FF-8714-7CCFD6600371}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIPActPart2", "DIPActPart2\DIPActPart2.csproj", "{438407D2-F624-4398-89E9-C8C03187DC6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6AFC9C74-6054-46FF-8714-7CCFD6600371}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AFC9C74-6054-46FF-8714-7CCFD6600371}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AFC9C74-6054-46FF-8714-7CCFD6600371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438407D2-F624-4398-89E9-C8C03187DC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438407D2-F624-4398-89E9-C8C03187DC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438407D2-F624-4398-89E9-C8C03187DC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438407D2-F624-4398-89E9-C8C03187DC6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
