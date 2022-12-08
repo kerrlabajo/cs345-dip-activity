@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIPAppPart1", "DIPApp\DIPAppPart1.csproj", "{6AFC9C74-6054-46FF-8714-7CCFD6600371}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIPActPart1", "DIPApp\DIPActPart1.csproj", "{6AFC9C74-6054-46FF-8714-7CCFD6600371}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
