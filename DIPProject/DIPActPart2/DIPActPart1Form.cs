@@ -169,7 +169,7 @@ namespace DIPActivity
         private void subtractToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new DIPActPart2Form().Show();
+            new DIPActPart2Form(this).Show();
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)

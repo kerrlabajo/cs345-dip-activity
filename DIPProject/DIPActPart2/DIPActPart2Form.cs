@@ -13,9 +13,11 @@ namespace DIPActivity
     public partial class DIPActPart2Form : Form
     {
         private Bitmap imageA, imageB, result;
-        public DIPActPart2Form()
+        private Form _form;
+        public DIPActPart2Form(Form form)
         {
             InitializeComponent();
+            _form = form;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -53,6 +55,12 @@ namespace DIPActivity
                 }
             }
             pictureBox3.Image = result;
+        }
+
+        private void returnToPart1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            _form.Show();
         }
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)

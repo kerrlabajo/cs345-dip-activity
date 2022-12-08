@@ -40,6 +40,7 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.button3 = new System.Windows.Forms.Button();
+            this.returnToPart1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -49,7 +50,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.returnToPart1ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -137,6 +139,13 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // returnToPart1ToolStripMenuItem
+            // 
+            this.returnToPart1ToolStripMenuItem.Name = "returnToPart1ToolStripMenuItem";
+            this.returnToPart1ToolStripMenuItem.Size = new System.Drawing.Size(98, 20);
+            this.returnToPart1ToolStripMenuItem.Text = "Return to Part1";
+            this.returnToPart1ToolStripMenuItem.Click += new System.EventHandler(this.returnToPart1ToolStripMenuItem_Click);
+            // 
             // DIPActPart2Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +185,7 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ToolStripMenuItem returnToPart1ToolStripMenuItem;
     }
 }
 
